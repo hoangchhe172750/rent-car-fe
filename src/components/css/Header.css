@@ -1,0 +1,85 @@
+.header {
+    max-width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+.container-fluid {
+    background-color: white;
+    padding: 10px 50px;
+    
+}
+
+.logo img {
+    width: 120px;
+    height: auto;
+    max-height: 50px;
+}
+
+.menu-header {
+    display: flex;
+    justify-content: space-between;
+    gap: 36px
+}
+
+.nav-links {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.nav-link {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    
+}
+
+.vertical-line {
+    height: 40px;
+    border: 0.1rem solid black;
+}
+
+.buttons {
+    display: flex;
+    gap: 24px;
+    text-decoration: none;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.btn2 {
+    background-color: white;
+    font-size: 14px;
+    font-weight: 500;
+    border: white;
+}
+
+.btn2:hover {
+    color: green;
+}
+
+.btn1 {
+    border-radius: 6px;
+    background-color: white;
+    font-size: 14px;
+    font-weight: 500;
+    color: black;
+    border: 1px solid black
+}
+
+.btn1:hover {
+    background-color: white;
+    color: white
+}
+
+.password-form i{
+    position: absolute;
+    right: 25px;
+    top: 140px;
+    font-size: 18px;
+}

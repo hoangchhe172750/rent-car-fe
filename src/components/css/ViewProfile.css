@@ -1,0 +1,218 @@
+.view-profile-container {
+    padding-top: 50px;
+    background-color: #f6f6f6;
+    border-bottom: 1px solid rgb(219, 215, 215);
+    border-top: 1px solid rgb(219, 215, 215);
+
+}
+
+.left-container {
+    padding-bottom: 30px;
+}
+
+.left-container h1 {
+    margin-bottom: 30px;
+}
+
+.left-sidebar-nav {
+    margin-bottom: 3px;
+    display: flex;
+    flex-direction: column;
+    border: none;
+}
+
+
+.left-sidebar-nav .nav-link {
+    text-align: left;
+    padding: 10px 15px;
+    border: none;
+    color: black;
+    border-radius: 0px;
+
+}
+
+.left-sidebar-nav .nav-link.active {
+    background-color: #f6f6f6;
+    border: none;
+    color: black;
+    font-weight: bold;
+    border-left: 4px solid #28a745;
+    border-radius: 0px;
+}
+
+.card-container {
+    border: none;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.title-btn,
+.infor-btn {
+    background-color: white;
+    color: black;
+    border-radius: 100%;
+}
+
+.title-btn {
+    border: 1px solid black;
+    padding: -5px 5px;
+}
+
+.title-btn i {
+    font-size: 13px;
+}
+
+.title-btn:hover {
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.title-btn:focus,
+.title-btn:active {
+    background-color: white !important;
+    color: black !important;
+    border: 1px solid black !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.title-text {
+    display: flex;
+    padding-bottom: 30px;
+    margin: 0px;
+}
+
+.title-text span {
+    color: black;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+
+.infor-btn:hover {
+    color: black;
+    background-color: white;
+}
+
+.infor-btn i {
+    font-size: 14px;
+}
+
+.infor-btn {
+    border: none;
+}
+
+.infor-btn:focus,
+.infor-btn:active {
+    background-color: white !important;
+    color: black !important;
+    border: none;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+
+.infor-container {
+    padding-right: 20px;
+    padding-left: 50px;
+}
+
+.card-age-gender {
+    /* padding-left: 20px; */
+    padding: 16px 24px;
+    margin-bottom: 10px;
+    border: none;
+    background-color: #f6f6f6;
+}
+
+.infor-text {
+    color: black;
+
+}
+
+.infor-text span {
+    font-size: 18px;
+}
+
+.infor-text span {
+    font-weight: 500;
+}
+
+
+/* GPLX css from here*/
+
+.car-license-container {
+    display: flex;
+    padding-bottom: 30px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px;
+}
+
+.car-license-title {
+    color: black;
+    margin-bottom: 0px;
+}
+
+.car-license-btn {
+    padding: 12px 20px;
+    font-size: 14px;
+}
+
+.car-license-btn-text {
+    font-weight: 500;
+}
+
+.car-license-lable {
+    color: #767676;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.car-license-upload {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px dashed #8dd7a8;
+    border-radius: 10px;
+    height: 235px;
+    cursor: pointer;
+    color: #8dd7a8;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    /* Ensures the image doesn't overflow the container */
+}
+
+/* .upload-label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+}
+
+.bi-cloud-arrow-up {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.preview-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+}
+
+.preview-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+} */

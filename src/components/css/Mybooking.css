@@ -1,0 +1,63 @@
+.card-car-item{
+    margin-bottom: 10px;
+    border: none;
+}
+
+.card-car-text-container{
+    color: black;
+}
+
+.carousel-container{
+    padding: 10px;
+}
+
+.carousel-img{
+    width: 100%;
+}
+
+.car-name{
+    text-align: center;
+    margin-bottom: 12px;
+    color: black;
+}
+
+.car-time{
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 8px;
+    color: black;
+}
+
+.car-table-container{
+    width: 350px;
+    margin: 10px;
+}
+
+.car-table{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.opt-btn{
+    width: 150px;
+    font-size: 14px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    margin-right: 50px;
+}
+
+.opt-btn1 {
+    margin-top: 15px;
+    margin-right: 30px;
+    background-color: white;
+    color: green;
+    border: 2px solid green;
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth hover effect */
+  }
+  
+  .opt-btn1:hover {
+    background-color: green;
+    color: white;
+  }
+  

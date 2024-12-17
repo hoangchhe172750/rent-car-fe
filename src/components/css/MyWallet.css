@@ -1,0 +1,72 @@
+.mywallet-title {
+    margin-bottom: 20px;
+}
+
+.mywallet-card-container{
+    border: none;
+    padding: 15px 30px;
+}
+
+.mywallet-card-text{
+    text-align: center;
+}
+
+.mywallet-money{
+    font-size: 36px;
+    font-weight: 500;
+    color: #5FCF86;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.mywallet-script{
+    color: #767676;
+    font-size: 18px;
+}
+
+.mywallet-take-money{
+    width: 90%;
+    padding: 16px 24px;
+    color: white;
+    font-weight: 500;
+    background-color: #5FCF86;
+    border: 2px solid #5FCF86;
+    
+}
+
+.mywallet-take-money:hover{
+    background-color: #67df91;
+    border: 2px solid #67df91;
+}
+
+.mywallet-deposit{
+    width: 90%;
+    padding: 16px 24px;
+    color: #5FCF86;
+    font-weight: 500;
+    /* background-color: #5FCF86; */
+    border: 2px solid #5FCF86;
+}
+
+.mywallet-deposit:hover{
+    background-color: #67df91;
+    border: 2px solid #67df91;
+}
+
+
+
+/* Pop-up css */
+.mywallet-header-pop-up-container{
+    justify-content: center;
+    border-bottom: none;
+}
+
+.mywallet-close-popup-btn{
+    color: black;
+    margin-left: 430px;
+    margin-top: -10px;
+}
+
+.bi-x-circle{
+    font-size: 22px;
+}

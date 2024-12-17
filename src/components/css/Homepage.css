@@ -1,0 +1,246 @@
+.homepage{
+  margin: auto;
+  width: 90%;
+}
+
+.content {
+  margin: 0 auto;
+  width: 60%;
+  align-items: center;
+}
+
+.content h1 {
+  color: white;
+  font-size: 56px;
+  text-align: center;
+  padding-top: 100px;
+
+}
+
+.search-form {
+  display: flex;
+  gap: 15px;
+  background: white;
+  padding: 20px;
+  border-radius: 20px;
+  max-width: 900px;
+  margin: 130px auto;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin-top: 170px;
+}
+
+.location-picker {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  border: 1px solid #ddd;
+  padding: 8px;
+  border-radius: 4px;
+  justify-content: space-between;
+}
+
+.search-button {
+  background: #4CAF50;
+  color: white;
+  border: none;
+  padding: 0 30px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Star form here */
+.homepage-content {
+  width: 100%;
+  margin: auto;
+  /* margin-bottom: 50px; */
+  background-color: #F6F6F6;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.homepage-content-items {
+  display: flex;
+}
+
+.card-item {
+  margin: 20px;
+  cursor: pointer;
+}
+
+.bi-geo-alt-fill {
+  margin-right: 5px;
+}
+
+.bi-luggage-fill {
+  margin-right: 5px;
+  color: #5FCF86;
+  font-size: 17px;
+}
+
+.card-car-price {
+  color: #5FCF86;
+  font-size: 19px;
+  font-weight: 700;
+}
+
+.footer{
+  width: 90%;
+  margin: auto;
+}
+
+.footer-email-phone p {
+  font-size: 18px;
+  color: black;
+  margin-bottom: 0px;
+}
+
+.footer-email-phone {
+  margin-bottom: 20px;
+}
+
+.main {
+  font-size: 18px;
+  font-weight: 600;
+  color: #242420;
+}
+
+.main-item {
+  font-size: 18px;
+  color: #6F6F6F;
+}
+
+.backgroundImage {
+  margin-bottom: 60px;
+}
+
+.top-location-content {
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+.top-location-title {
+  text-align: center;
+}
+
+.top-location-title h1 {
+  margin-bottom: 40px;
+}
+
+.location-items-content {
+  width: 100%;
+  margin: auto;
+  justify-content: center;
+}
+
+.card-location-image {
+  border-radius: 5px;
+  border: none;
+  max-height: 210px;
+  transition: transform 0.3s ease, filter 0.3s ease;
+  /* Smooth transition for the hover effect */
+
+}
+
+
+
+/* Scale the image slightly and apply a color filter on hover */
+.card-location:hover .card-location-image {
+  transform: scale(1.02);
+  /* Slight zoom effect */
+  filter: brightness(0.7);
+  /* Darkens the image */
+}
+
+.card-location {
+  position: relative;
+  color: white;
+  margin: 20px;
+  cursor: pointer;
+}
+
+.card-overlay, .explorer-item-overlay {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  height: 100%;
+
+}
+
+
+
+.card-location .card-overlay .card-title {
+  font-size: 25px;
+  color: #F6F6F6;
+  margin-bottom: 2px;
+}
+
+.card-text {
+  font-size: 20px;
+  color: #F6F6F6;
+}
+
+.card-car-title {
+  font-size: 18px;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+.card-car-text {
+  color: #000000;
+  font-size: 17px;
+}
+
+.card-car-price-text {
+  font-size: 15px;
+  color: #767676;
+}
+
+.explorer-item {
+  width: 100%;
+  padding: 36px;
+  background-color: #effaf3;
+  border-radius: 20px;
+  border: none;
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+
+.explorer-item-image{
+  height: auto;
+  margin: 0px;
+  border-radius: 16px;
+  border: none;
+  filter: brightness(0.55);
+}
+
+.explorer-item .explorer-item-content{
+  text-align: center;
+  padding-left: 80px;
+  
+}
+
+.explorer-item-title{
+  margin-bottom: 8px;
+  color: white;
+  
+}
+
+.explorer-item-btn{
+  font-size: 16px !important;
+  /* padding: 12px 40px; */
+  border: none !important;
+  font-weight: 500 !important;
+  padding: 12px 40px !important;
+}
+
+/* .explorer-item-btn:hover{
+  background-color: #5FCF86;
+} */
+
+.explorer-item-text{
+  font-size: 17px;
+  color: white;
+  margin-bottom: 24px;
+  
+}
